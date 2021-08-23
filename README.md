@@ -170,7 +170,7 @@ Errors are returned as JSON objects in folloving format:
     ```
     * Then API reutrns data which includes:
     ```
-        "added" - id of new actor,
+        "added" - id of new movies,
         "success" - true,
-        "total_movies" - number of all actors
+        "total_movies" - number of all movies
     ```
