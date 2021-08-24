@@ -3,10 +3,7 @@ import json
 from sqlalchemy import Column, String, Integer
 from flask_sqlalchemy import SQLAlchemy
 
-database_name = 'capstone'
-database_path = 'postgresql://{}:{}@{}/{}'.format(
-    'postgres', '12', 'localhost:5432', database_name
-)
+database_path = os.environ['DATABASE_URL']
 db = SQLAlchemy()
 
 
